@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profitable Gamble</title>
+</head>
+<body>
+
+    <script>
+        //Profitable Gamble 
+        function profitableGamble(prob, prize, pay) {
+        	var result = ((prob * prize) > pay) ? true :false;
+        	return result;
+        }
+        document.write(profitableGamble(0.2, 50, 9))
+    </script>
+</body>
+</html>
