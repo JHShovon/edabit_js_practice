@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find the Smallest and Biggest Numbers</title>
+</head>
+<body>
+
+    <script>
+      //Find the Smallest and Biggest Numbers
+      function minMax(arr) {
+        var findMintoMax =  Math.min.apply(null, arr) + "," + Math.max.apply(null, arr);;
+        return findMintoMax;
+      }
+      
+      console.log(minMax([1, 2, 3, 4, 5]));
+    </script>
+</body>
+</html>
