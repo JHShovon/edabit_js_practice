@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slightly Superior</title>
+</head>
+<body>
+
+    <script>
+      //Slightly Superior
+      function isFirstSuperior(arr1, arr2) {
+        return arr1 > arr2;
+      }
+
+      document.write(isFirstSuperior(["a", "d", "c"], ["a", "b", "c"]));
+      document.write(
+        isFirstSuperior(["zebra", "ostrich", "whale"], ["ant", "ostrich", "whale"])
+      );
+      document.write(isFirstSuperior([1, 2, 3, 4], [1, 2, 4, 4]));
+      document.write(isFirstSuperior([true, 10, "zebra"], [true, 10, "zebra"]));
+    </script>
+</body>
+</html>
